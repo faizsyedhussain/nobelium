@@ -1,8 +1,8 @@
 const BLOG = {
         title: 'Faiz Hussain',
         author: 'Faiz Hussain',
-        email: 'inbox@faiz.design',
-        link: 'https://fazi.desgin',
+        email: 'faiz@hey.com',
+        link: 'https://faiz.design',
         description: 'This gonna be an awesome website.',
         lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP']
         appearance: 'light', // ['light', 'dark', 'auto'],
@@ -10,13 +10,13 @@ const BLOG = {
         lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
         darkBackground: '#18181B', // use hex value, don't forget '#'
         path: '', // leave this empty unless you want to deploy Nobelium in a folder
-        since: 2021, // if leave this empty, current year will be used.
+        since: , // if leave this empty, current year will be used.
         postsPerPage: 7,
-        sortByDate: false,
+        sortByDate: true,
         showAbout: true, // WIP
         showArchive: true, // WIP
         autoCollapsedNavBar: false, // the automatically collapsed navigation bar
-        socialLink: 'https://twitter.com/faizsyedhussain',
+        socialLink: 'https://linkedin.com/in/faizsyedhussain',
         seo: {
             keywords: ['Blog', 'Website', 'Notion'],
             googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
@@ -36,7 +36,7 @@ const BLOG = {
         },
         comment: {
             // support provider: gitalk, utterances, cusdis
-            provider: '', // leave it empty if you don't need any comment plugin
+            provider: 'cusdis', // leave it empty if you don't need any comment plugin
             gitalkConfig: {
                 repo: '', // The repository of store comments
                 owner: '',
