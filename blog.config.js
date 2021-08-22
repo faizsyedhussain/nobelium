@@ -3,9 +3,9 @@ const BLOG = {
         author: 'Faiz Hussain',
         email: 'faiz@hey.com',
         link: 'https://faiz.design',
-        description: 'This gonna be an awesome website.',
+        description: '',
         lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP']
-        appearance: 'light', // ['light', 'dark', 'auto'],
+        appearance: 'auto', // ['light', 'dark', 'auto'],
         font: 'sans-serif', // ['sans-serif', 'serif']
         lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
         darkBackground: '#18181B', // use hex value, don't forget '#'
@@ -14,7 +14,7 @@ const BLOG = {
         postsPerPage: 7,
         sortByDate: true,
         showAbout: true, // WIP
-        showArchive: true, // WIP
+        showArchive: false, // WIP
         autoCollapsedNavBar: false, // the automatically collapsed navigation bar
         socialLink: 'https://linkedin.com/in/faizsyedhussain',
         seo: {
