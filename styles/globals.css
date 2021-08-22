@@ -5,18 +5,35 @@
 
 @font-face {
   font-family: 'Halyard Display';
-  font-weight: 200 400;
+  font-weight: 200;
   font-display: swap;
   font-style: normal;
   font-named-instance: 'Light';
 }
 
+
 @font-face {
   font-family: 'Halyard Display';
-  font-weight: 200 400;
+  font-weight: 400;
+  font-display: swap;
+  font-style: medium;
+  font-named-instance: 'Regular';
+}
+
+@font-face {
+  font-family: 'Halyard Display';
+  font-weight: 200;
   font-display: swap;
   font-style: italic;
   font-named-instance: 'Light Italic';
+}
+
+@font-face {
+  font-family: 'Halyard Display';
+  font-weight: 400;
+  font-display: swap;
+  font-style: medium italic;
+  font-named-instance: 'Italic';
 }
 
 @font-face {
