@@ -24,7 +24,6 @@ module.exports = {
       },
       fontFamily: {
         sans: ['"Halyard Display"', ...fontFamily.sans, ...fontSansCJK],
-        serif: ['"Source Serif"', ...fontFamily.serif, ...fontSerifCJK],
         noEmoji: [
           '"Halyard Display"',
           'ui-sans-serif',
