@@ -7,10 +7,17 @@
   font-family: 'Halyard Display';
   font-weight: 200;
   font-display: swap;
-  font-style: normal;
+  font-style: light;
   font-named-instance: 'Light';
 }
 
+@font-face {
+  font-family: 'Halyard Display';
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Book';
+}
 
 @font-face {
   font-family: 'Halyard Display';
@@ -24,8 +31,16 @@
   font-family: 'Halyard Display';
   font-weight: 200;
   font-display: swap;
-  font-style: italic;
+  font-style: light italic;
   font-named-instance: 'Light Italic';
+}
+
+@font-face {
+  font-family: 'Halyard Display';
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: 'Book Italic';
 }
 
 @font-face {
