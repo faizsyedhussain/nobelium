@@ -17,7 +17,7 @@ const Tags = ({ tags, currentTag }) => {
                       : 'bg-gray-100 border-gray-100 text-gray-400 dark:bg-night dark:border-gray-800'
                   }`}
                 >
-                  {`${key} <span class="badge mb-3 bg-red-800 rounded-full px-2 py-1 text-center object-right-top text-white text-sm mr-1">(${tags[key]})</span>`}
+                  {`${key} (${tags[key]})`}
                 </li>
               </a>
             </Link>
