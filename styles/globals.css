@@ -27,6 +27,15 @@
   font-named-instance: 'Regular';
 }
 
+
+@font-face {
+  font-family: 'Halyard Display';
+  font-weight: 500;
+  font-display: swap;
+  font-style: semibold;
+  font-named-instance: 'Medium';
+}
+
 @font-face {
   font-family: 'Halyard Display';
   font-weight: 200;
@@ -49,6 +58,15 @@
   font-display: swap;
   font-style: medium italic;
   font-named-instance: 'Italic';
+}
+
+
+@font-face {
+  font-family: 'Halyard Display';
+  font-weight: 500;
+  font-display: swap;
+  font-style: semibold italic;
+  font-named-instance: 'Medium Italic';
 }
 
 @font-face {
