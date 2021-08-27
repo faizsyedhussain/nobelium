@@ -3,6 +3,8 @@
 .notion {
   @apply text-gray-600 dark:text-gray-300;
   overflow-wrap: break-word;
+  font-family: 'Halyard Display';
+  font-weight: 200;
 }
 .notion,
 .notion-text,
