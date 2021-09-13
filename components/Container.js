@@ -28,7 +28,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
         {BLOG.seo.keywords && (
           <meta name="keywords" content={BLOG.seo.keywords.join(', ')} />
         )}
-        <link rel="alternate" type="application/rss+xml" title="{meta.title}" href="/feed"/>
+        <link rel="alternate" type="application/rss+xml" href="/feed"/>
         <meta name="description" content={meta.descripapplication/rss+xml" title="feed one" href="/rss/feedone"/>tion} />
         <meta property="og:locale" content={BLOG.lang} />
         <meta property="og:title" content={meta.title} />
