@@ -68,7 +68,6 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
       >
         <Header
           navBarTitle={layout === 'blog' ? meta.title : null}
-          }`}
         />
         <main
           className={`m-auto flex-grow w-full transition-all ${
