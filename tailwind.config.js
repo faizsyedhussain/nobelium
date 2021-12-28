@@ -16,6 +16,7 @@ module.exports = {
     extend: {
       colors: {
           'black': '#774C24',
+          'gray-700': '#D8B08B',
         day: {
           DEFAULT: BLOG.lightBackground || '#FAF1E9'
         },
