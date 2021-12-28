@@ -105,7 +105,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
 }
 
-.sticky-nav {
+#sticky-nav {
   position: sticky;
   z-index: 10;
   top: -1px;
@@ -116,6 +116,11 @@ body::-webkit-scrollbar-thumb {
 
 .remove-sticky {
   position: unset;
+}
+
+.sticky-nav{
+ display: none;
+ visibility: collapse;
 }
 
 .sticky-nav-full {
