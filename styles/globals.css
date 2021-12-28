@@ -92,8 +92,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-.leading{
-    line-height: 1.4rem;
+.leading-r2{
+    line-height: 1.414rem;
 }
 
 .wrapper {
