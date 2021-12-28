@@ -23,7 +23,7 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
           placeholder={
             currentTag ? `Search in #${currentTag}` : 'Search Articles'
           }
-          className="block w-full border px-4 py-2 border-black bg-white text-black dark:bg-night dark:border-white dark:text-white"
+          className="block w-full border px-4 py-2 border-black bg-gray-700 text-black dark:bg-night dark:border-white dark:text-white"
           onChange={e => setSearchValue(e.target.value)}
         />
         <svg
@@ -47,7 +47,7 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
       />
       <div className="article-container my-8">
         {!filteredBlogPosts.length && (
-          <p className="text-gray-500 dark:text-gray-300">No posts found.</p>
+          <p className="text-gray-700 dark:text-gray-300">No posts found.</p>
         )}
         {filteredBlogPosts.slice(0, 20).map(post => (
           <BlogPost key={post.id} post={post} />
