@@ -14,7 +14,7 @@ const Footer = ({ fullWidth }) => {
         <div className="flex align-baseline justify-between flex-wrap">
           <p className="columns-4 text-left">CC BY·NC·SA</p>
         <p className="columns-4 text-center">{BLOG.author}</p>
-        <p className="columns-4 text-right">{from === y || !from ? y : `${from} - ${y}`}</p>
+        <p className="columns-4 text-right">{from === y || !from ? y : `${from}–${y}`}</p>
         </div>
       </div>
     </div>

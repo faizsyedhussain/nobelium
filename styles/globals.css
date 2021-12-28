@@ -118,13 +118,12 @@ body::-webkit-scrollbar-thumb {
   position: unset;
 }
 
-.sticky-nav{
- display: none;
- visibility: collapse;
-}
+
 
 .sticky-nav-full {
-  @apply border-b border-opacity-50 border-gray-200 dark:border-gray-600 dark:border-opacity-50;
+  /*@apply border-b border-opacity-50 border-gray-200 dark:border-gray-600 dark:border-opacity-50;*/
+    display:none;
+    visibility: collapse;
 }
 
 .header-name {
