@@ -1,5 +1,4 @@
 import BLOG from '@/blog.config'
-import Vercel from '@/components/Vercel'
 const Footer = ({ fullWidth }) => {
   const d = new Date()
   const y = d.getFullYear()
@@ -13,9 +12,9 @@ const Footer = ({ fullWidth }) => {
       <hr className="border-gray-200 dark:border-gray-600" />
       <div className="my-4 text-sm leading-r2">
         <div className="flex align-baseline justify-between flex-wrap">
-          <p>
-            © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
-          </p>
+          <p className="columns-4 text-left">CC BY·NC·SA</p>
+        <p className="columns-4 text-center">{BLOG.author}</p>
+        <p className="columns-4 text-right">{from === y || !from ? y : `${from} - ${y}`}</p>
         </div>
       </div>
     </div>
