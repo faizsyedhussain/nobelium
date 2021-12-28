@@ -118,12 +118,8 @@ body::-webkit-scrollbar-thumb {
   position: unset;
 }
 
-
-
 .sticky-nav-full {
-  /*@apply border-b border-opacity-50 border-gray-200 dark:border-gray-600 dark:border-opacity-50;*/
-    display:none;
-    visibility: collapse;
+  @apply border-b border-opacity-50 border-gray-200 dark:border-gray-600 dark:border-opacity-50;
 }
 
 .header-name {
