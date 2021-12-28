@@ -91,6 +91,11 @@ body::-webkit-scrollbar-thumb {
   background: rgba(45, 170, 219, 0.3);
 }
 
+
+.leading{
+    line-height: 1.4rem;
+}
+
 .wrapper {
   min-height: 100vh;
   display: flex;

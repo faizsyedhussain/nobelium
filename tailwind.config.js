@@ -16,10 +16,10 @@ module.exports = {
     extend: {
       colors: {
         day: {
-          DEFAULT: BLOG.lightBackground || '#ffffff'
+          DEFAULT: BLOG.lightBackground || '#FAF1E9'
         },
         night: {
-          DEFAULT: BLOG.darkBackground || '#111827'
+          DEFAULT: BLOG.darkBackground || '#2E1C0B'
         }
       },
       fontFamily: {
