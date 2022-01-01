@@ -8,7 +8,7 @@ const BLOG = {
         appearance: 'light', // ['light', 'dark', 'auto'],
         font: 'sans-serif', // ['sans-serif', 'serif']
         lightBackground: '#FAF1E9', // use hex value, don't forget '#' e.g #fffefc
-        darkBackground: '#2E1C0B', // use hex value, don't forget '#'
+        darkBackground: '#5C330A', // use hex value, don't forget '#'
         path: '', // leave this empty unless you want to deploy Nobelium in a folder
         since: '', // if leave this empty, current year will be used.
         postsPerPage: 8,

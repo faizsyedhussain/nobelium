@@ -15,13 +15,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-          'black': '#774C24',
-          'gray-700': '#D8B08B',
+          'black': '#5C330A',
+          'gray-900': '#774D22',
+          'gray-700': '#B27334',
+          'gray-500': '#D7A675',
+          'gray-300': '#E6C19B',
+          'gray-100': '#EED9C4',
+          'white': '#FAF1E8',
         day: {
-          DEFAULT: BLOG.lightBackground || '#FAF1E9'
+          DEFAULT: BLOG.lightBackground || '#FAF1E8'
         },
         night: {
-          DEFAULT: BLOG.darkBackground || '#2E1C0B'
+          DEFAULT: BLOG.darkBackground || '#5C330A'
         }
       },
       fontFamily: {
