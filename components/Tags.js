@@ -13,8 +13,8 @@ const Tags = ({ tags, currentTag }) => {
                 <li
                   className={`mr-3 py-2 font-normal border px-4 whitespace-nowrap dark:text-gray-700 ${
                     selected
-                      ? 'text-white bg-black border-black dark:bg-gray-600 dark:border-gray-600'
-                      : 'bg-gray-100 border-gray-100 text-gray-400 dark:bg-night dark:border-gray-800'
+                      ? 'text-white bg-black border-black dark:bg-gray-500 dark:border-gray-500'
+                      : 'bg-gray-100 border-gray-100 text-gray-500 dark:bg-night dark:border-gray-900'
                   }`}
                 >
                   {`${key} (${tags[key]})`}
